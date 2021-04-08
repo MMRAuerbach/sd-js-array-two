@@ -17,7 +17,6 @@ const addNumberButton = document.querySelector('.add_number_button');
 const numberInput = document.querySelector('.number_input');
 
 
-
 /* Always check if first needed element exists */
 if (addNameButton) {
     addNameButton.addEventListener('click', addName);
