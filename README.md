@@ -1,4 +1,3 @@
-# Javascript Array test
+# JavaScript :: Sprint 1 :: Oefenopdrachten
 
-Deze online test leer je o.a. items aan array toe te voegen en te zoeken
-
+Dit is wat ondersteuning voor je opdracht JS in sprint 1

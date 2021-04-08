@@ -1,0 +1,142 @@
+/* Main information - resetting some defaults (yes that you can do on elements!)*/
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    background-color: #659DBD;
+    color: #FFF;
+}
+
+*:focus {
+    outline-width: 0;
+}
+
+
+/* Start here with the basic theme colour... */
+.wrapper {
+    margin-left: 10px;
+}
+
+.topnav {
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav .link {
+    float: left;
+    display: block;
+    color: #8D8741;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav .link:hover {
+    background-color: #e9de68;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav .link.active {
+    background-color: #8D8741;
+    color: white;
+}
+
+/* The grid */
+.basic-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-item, .bordered_box {
+    margin: 25px;
+    border: 1px solid #312;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.bordered_box {
+    width: 70%;
+    margin: 25px;
+    border: 1px solid #312;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.button_light {
+    border: 1px solid #BC986A;
+    background-color: #BC986A;
+    border-radius: 5px;
+    color: #FBEEC1;
+    cursor: pointer;
+    padding: 10px;    
+}
+
+.button_light:hover {
+    background-color: #BC986A;
+    color: #FBEEC1;
+    border: 1px solid #FBEEC1;
+}
+
+.input_light {
+    background-color: #FBEEC1;
+    border: 1px solid #BC986A;
+    color: #BC986A;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.input_light::placeholder {
+    color: #f7c88c;
+}
+
+.small_image {
+    width: 25%;
+}
+
+.broad_image {
+    width: 80%;
+}
+
+.last_section {
+    margin-bottom: 25px;
+}
+
+.bmi_answer {
+    color: #FFF;
+}
+
+.bmi_extreme {
+    border-color: red;
+    color: red;
+}
+
+.bmi_high {
+    border-color: orange;
+    color: orange;
+}
+
+.bmi_good {
+    border-color: green;
+    color: green;
+}
+
+.bmi_low {
+    border-color: yellow;
+    color: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+    .basic-grid {
+        grid-template-columns: 100%;
+    }
+}
