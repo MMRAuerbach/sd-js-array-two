@@ -1,12 +1,12 @@
 console.log("main.js file loaded");
 /* Create a new empty array for ages */
-let agesArray = new Array();
+const agesArray = new Array();
 
 /* Create a new empty array for numbers */
-let numbersArray = [];
+const numbersArray = [];
 
 /* Create a new filled array with names */
-let namesArray = ["Springer", "Thong", "Van der Linden", "Auerbach"];
+const namesArray = ["Springer", "Thong", "Van der Linden", "Auerbach"];
 
 /* Get the elements you need */
 const addNameButton = document.querySelector('.add_name_button');
@@ -24,13 +24,13 @@ if (addNameButton) {
 
 /* function used in the eventlistner for the add name button */
 function addName() {
-    addName = nameInput.value;
-    if (!addName) {
+    const toAddName = nameInput.value;
+    if (!toAddName) {
         alert('Please enter a name');
         return;
     }
 
-    namesArray.push(addName);
+    namesArray.push(toAddName);
     showArrayInformation(namesArray);
 }
 
