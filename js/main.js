@@ -34,13 +34,16 @@ function addName() {
     showArrayInformation(namesArray);
 }
 
-
-
-
 /* General function for showing information in a given array */
 function showArrayInformation(theArray) {
     for (let i = 0; i < theArray.length; i++) {
         console.log(theArray[i]);
     }
 }
+
+
+/* Create a general function for calculating the average of numbers from a given Array */
+
+/* Create a general function for calculating the total of numbers from a given Array */
+
 
